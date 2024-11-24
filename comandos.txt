@@ -1,0 +1,12 @@
+#Construir la imagen
+docker build -t sebast19/translate-azure-fe:latest .
+
+#Inciar sesion en Docker Hub
+docker login -u sebast19
+(Copiar Token de acceso)
+
+#Subir la imagen a Docker Hub
+docker push sebast19/translate-azure-fe:latest
+
+
+
